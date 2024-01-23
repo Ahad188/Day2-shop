@@ -163,4 +163,211 @@ nav .container .btn span {
   font-weight: 700;
   line-height: 36px;
   padding: 0 4px;
+}
+
+footer {
+  max-width: 1920px;
+  height: 614px;
+  background: #05092B;
+}
+footer .foot {
+  margin-top: 400px;
+  width: 1290px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+footer .foot .first {
+  margin-top: 191px;
+}
+footer .foot .first .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .foot .first .logo img {
+  width: 40px;
+  height: 40px;
+}
+footer .foot .first .logo h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 68px; /* 226.667% */
+  letter-spacing: -1.48px;
+}
+footer .foot .first .pera {
+  width: 300px;
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+footer .foot .first h4 {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+footer .foot .first ul {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .foot .first ul li {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  opacity: 0.3;
+  position: relative;
+}
+footer .foot .first ul li i {
+  width: 14px;
+  height: 12.39px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+footer .foot .first ul li:hover {
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+}
+footer .foot .second {
+  margin-top: 191px;
+}
+footer .foot .second h3 {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px; /* 163.636% */
+}
+footer .foot .second ul li .fa-solid {
+  font-size: 16px;
+  padding: 20px 0;
+  font-weight: 900;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .foot .second ul li span {
+  color: #FFF;
+  margin-left: 3px;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+footer .foot .third {
+  margin-top: 191px;
+}
+footer .foot .third h3 {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px; /* 163.636% */
+}
+footer .foot .third ul li {
+  padding: 15px 0;
+}
+footer .foot .third ul li a i {
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .foot .third ul li a span {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  margin-left: 12px;
+}
+footer .foot .forth {
+  margin-top: 191px;
+}
+footer .foot .forth h3 {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+}
+footer .foot .forth li {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  margin-left: 5px;
+  padding: 24px 0;
+}
+footer .foot .forth li i {
+  font-size: 14px;
+  font-weight: 400;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 5px;
+}
+footer .foot .forth h4 {
+  width: 200px;
+  color: #fff;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+footer .bor {
+  margin: 0 auto;
+  width: 1290px;
+  height: 1px;
+  background: #fff;
+  opacity: 0.2;
+}
+footer .copy-right {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copy-right p {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  opacity: 0.7;
+  padding-top: 30px;
+}
+footer .copy-right .ri {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .copy-right .ri li {
+  color: #FFF;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
 }/*# sourceMappingURL=main.css.map */

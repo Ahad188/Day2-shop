@@ -161,3 +161,232 @@ nav{
     }
 }
 
+// footer
+footer{
+     // margin-top: -90px;
+     max-width: 1920px;
+     height: 614px;
+     background:   #05092B;
+     
+     .foot{
+          margin-top: 400px;
+          
+          width: 1290px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-gap: 30px;
+          .first{
+               margin-top: 191px;
+               .logo{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img{
+                         width: 40px;
+                         height: 40px;
+                    }
+                    h3{
+                         color:  #fff;
+                         font-size: 30px;
+                         font-weight: 700;
+                         line-height: 68px; /* 226.667% */
+                         letter-spacing: -1.48px;
+                    }
+               }
+               .pera{
+                    width: 300px;
+                    color:#FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px; /* 155.556% */
+                    letter-spacing: -0.36px;
+               }
+               h4{
+                    color:#FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 30px; /* 166.667% */
+               }
+               ul{
+                    margin-top: 20px;
+                    // margin-bottom: 70px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    li{
+                         width: 35px;
+                         height: 35px;
+                         border-radius: 5px;
+                         border: 1px solid   #FFF;
+                         opacity: 0.3;
+                         position: relative;
+                         i{
+                              width: 14px ;
+                              height: 12.39px;
+                              color:   #FFF;
+                              font-size: 14px;
+                              font-weight: 400;
+                              position: absolute;
+                              top:10px;
+                              left:10px;
+                         }
+                         &:hover{
+                              background:linear-gradient(91deg, #351EE0 0%, #3F74EF 100%)
+                         }
+                    }
+               }
+          }
+          .second{
+               margin-top: 191px;
+               h3{
+                    color:   #FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 36px; /* 163.636% */
+               }
+               ul{
+                   
+                    li{
+                         .fa-solid {
+                              font-size: 16px;
+                              padding: 20px 0;
+                              font-weight: 900;
+                              background:   linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+                              background-clip: text;
+                              -webkit-background-clip: text;
+                              -webkit-text-fill-color: transparent;
+                         };
+                         span{
+                              color:   #FFF;
+                               margin-left: 3px;
+                              font-family: "Space Grotesk";
+                              font-size: 18px;
+                              font-style: normal;
+                              font-weight: 400;
+                              line-height: 28px; /* 155.556% */
+                              letter-spacing: -0.36px;
+
+                         }
+                          
+                    }
+               }
+          }
+          .third{
+               margin-top: 191px;
+              
+               h3{
+                    color:   #FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 36px; /* 163.636% */
+               }
+               ul{
+                    li{
+                         padding: 15px 0;
+                         a{
+                              i{
+                                   background:   linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+                                   background-clip: text;
+                                   -webkit-background-clip: text;
+                                   -webkit-text-fill-color: transparent;
+                              }
+                              span{
+                                   color:  #FFF;
+                                   font-family: "Space Grotesk";
+                                   font-size: 18px;
+                                   font-weight: 400;
+                                   line-height: 28px; /* 155.556% */
+                                   letter-spacing: -0.36px;
+                                   margin-left: 12px;
+                              }
+                         }
+                    }
+               }
+          }
+          .forth{
+               margin-top: 191px;
+               // border: 2px solid gray;
+               h3{
+                    color:  #FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 22px;
+                    font-weight: 700;
+                    line-height: 36px; 
+                    // margin-bottom: 24px;/* 163.636% */
+               }
+               li{
+                    color:#FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px; /* 155.556% */
+                    letter-spacing: -0.36px;
+                    margin-left: 5px;
+                    padding: 24px 0;
+                    i{
+                         font-size: 14px;
+                         font-weight: 400;
+                         background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+                         background-clip: text;
+                         -webkit-background-clip: text;
+                         -webkit-text-fill-color: transparent;
+                         margin-right: 5px;
+                    }
+               }
+               h4{
+                    width: 200px;
+                    color: #fff;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 30px; /* 166.667% */
+               }
+          }
+            
+            
+     }
+     .bor{
+          margin: 0 auto;
+          width: 1290px;
+          height: 1px;
+          background: #fff;
+          opacity: 0.2;
+     }
+     .copy-right{
+          // margin: 30px;
+          width: 1290px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p{
+               color:   #FFF;
+               font-family: "Space Grotesk";
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 26px; /* 144.444% */
+               opacity: 0.7;
+               padding-top: 30px ;
+          }
+          .ri{
+               display: flex;
+               align-items: center;
+               gap: 20px;
+               li{
+                    color: #FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px; /* 144.444% */
+               }
+          }
+     }
+      
+}
