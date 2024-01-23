@@ -165,6 +165,202 @@ nav .container .btn span {
   padding: 0 4px;
 }
 
+.details {
+  margin-top: 120px;
+  display: flex;
+  gap: 30px;
+}
+.details .img-div img {
+  width: 520px;
+  height: 638px;
+  border-radius: 5px;
+}
+.details .details-text h2 {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  margin-top: 15px;
+}
+.details .details-text .text2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.details .details-text .text2 .d {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+}
+.details .details-text .text2 p {
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  background: var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.details .details-text .pera {
+  color: #737373;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+.details .details-text h2 {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+.details .details-text ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.details .details-text ul li {
+  display: flex;
+  gap: 10px;
+}
+.details .details-text ul li h4 {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.details .details-text .text-f {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+  margin-top: 104px;
+}
+.details .details-text .text-f .contact {
+  display: inline-flex;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  color: #FFF;
+}
+.details .details-text .text-f .contact span {
+  color: #FFF;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.details .details-text .text-f .contact .flow {
+  color: #737373;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  padding-left: 82px;
+}
+
+.cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.cards .box {
+  width: 410px;
+}
+.cards .box img {
+  width: 410px;
+  height: 415px;
+  border-radius: 5px;
+}
+.cards .box .box-t h2 {
+  color: #05092B;
+  font-family: "Space Grotesk";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+.cards .box .box-t .text2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cards .box .box-t .text2 .d {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+}
+.cards .box .box-t .text2 p {
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  background: var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 28px;
+}
+
+.hr {
+  width: 1290px;
+  height: 1px;
+  background: #CCC;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.pagination .pagi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pagination .pagi i {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pagination .pagi span {
+  color: var(--900, #05092B);
+  font-family: "Space Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 163.636% */
+}
+
 footer {
   max-width: 1920px;
   height: 614px;
