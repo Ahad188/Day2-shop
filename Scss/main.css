@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  text-decoration: none;
   outline: none;
   border: none;
 }
@@ -89,12 +88,14 @@ nav .container ul li a {
   display: flex;
   align-items: center;
   gap: 5px;
+  text-decoration: none;
 }
 nav .container ul li a span {
   color: #05092B;
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
+  font-family: "Space Grotesk";
   display: inline-block;
   transition: all 0.3s ease-in-out;
 }
@@ -102,9 +103,6 @@ nav .container ul li a .fa-solid {
   color: #05092B;
   font-size: 10px;
   font-weight: 900;
-}
-nav .container ul li:hover span {
-  text-decoration: underline;
 }
 nav .container .btn {
   height: 60px;
@@ -118,4 +116,51 @@ nav .container .btn span {
   font-size: 18px;
   font-weight: 700;
   line-height: 30px; /* 166.667% */
+}
+
+.brad-clambr {
+  max-width: 1920px;
+  height: 440px;
+  background-image: url("../../img/Rectangle-3096.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+}
+.brad-clambr::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #05092B;
+  opacity: 0.5;
+}
+.brad-clambr h2 {
+  color: #FFF;
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 84px; /* 113.514% */
+  letter-spacing: -1.48px;
+  top: 150px;
+  left: 40%;
+  position: absolute;
+}
+.brad-clambr .title {
+  position: absolute;
+  top: 270px;
+  left: 46%;
+}
+.brad-clambr .title i {
+  color: #FFF;
+}
+.brad-clambr .title span {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 0 4px;
 }/*# sourceMappingURL=main.css.map */
