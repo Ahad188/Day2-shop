@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:ital,wght@0,900;1,300&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  max-width: 1920px;
+  height: 70px;
+  background: #ECF0FB;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+header .container ul li .fa-solid {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  background: var(--P, linear-gradient(91deg, #351EE0 0%, #3F74EF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .container ul li span {
+  color: #05092B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+  margin-right: 3px;
+}
+header .container ul li .fa-brands {
+  color: #05092B;
+  font-size: 15px;
+  font-weight: 400;
+  width: 10px;
+  height: 14.973px;
+}
+
+nav {
+  max-width: 1920pz;
+  width: 100%;
+  height: 100px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .container .logo img {
+  width: 40px;
+  height: 40px;
+}
+nav .container .logo h3 {
+  color: #05092B;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 68px; /* 226.667% */
+  letter-spacing: -1.48px;
+}
+nav .container ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+nav .container ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+nav .container ul li a span {
+  color: #05092B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+nav .container ul li a .fa-solid {
+  color: #05092B;
+  font-size: 10px;
+  font-weight: 900;
+}
+nav .container ul li:hover span {
+  text-decoration: underline;
+}
+nav .container .btn {
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+nav .container .btn span {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}/*# sourceMappingURL=main.css.map */
