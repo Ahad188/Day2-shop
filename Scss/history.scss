@@ -1,5 +1,7 @@
-@forward 'Base/index';
-@forward 'Util/index';
+@forward './Base/index';
+@forward './Util/index';
+
+
 @mixin d{
      width: 70px;
      height: 1px;
@@ -35,6 +37,50 @@
      font-style: normal;
      font-weight: 700;
      line-height: 36px; /* 163.636% */
+}
+@mixin his-p{
+     color: #737373;
+     font-family: "Space Grotesk";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; /* 155.556% */
+     letter-spacing: -0.36px;
+}
+@mixin history-h4{
+     color:  #05092B;
+     font-family: "Space Grotesk";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 30px; /* 166.667% */
+}
+@mixin history-span{
+     color:   #737373;
+     font-family: "Space Grotesk";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; /* 155.556% */
+     letter-spacing: -0.36px;
+}
+@mixin year{
+     color:   #05092B;
+     font-family: "Space Grotesk";
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 68px; /* 113.333% */
+     letter-spacing: -1.48px;
+}
+@mixin his-p{
+     color:   #737373;
+     font-family: "Space Grotesk";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; /* 155.556% */
+     letter-spacing: -0.36px;
 }
 
 header{
@@ -198,179 +244,102 @@ nav{
 }
 // details
 .details{
-     
-     // height: 1399px;
-     margin-top: 120px;
+     margin-top: 160px;
      display: flex;
-     // justify-content: space-between;
-     // align-items: center;
-     gap: 30px;
-      .img-div{
-         
-          img{
-               
-               width: 520px;
-               height: 638px;
-               border-radius: 5px;
-          }
-      }
-      .details-text{
-          h2{
-               color:#05092B;
+      gap: 165px;
+     .details-text{
+          .he{
+               color:   #05092B;
                font-family: "Space Grotesk";
-               font-size: 32px;
-               font-weight: 500;
-               line-height: 40px; /* 125% */
-               letter-spacing: -0.64px;
-               margin-top: 15px;
-          }
-          .text2{
-               display: flex;
-               align-items: center;
-               gap: 10px;
-                     .d{
-                     @include d;
-               }
-               p{
-                   @include p;
-               }
-          }
-          .pera{
-               color:#737373;
-               font-family: "Space Grotesk";
-               font-size: 18px;
-               font-style: normal;
-               font-weight: 400;
-               line-height: 28px; /* 155.556% */
-               letter-spacing: -0.36px;
-          }
-          h2{
-               @include h2;
-          }
-          ul{
-               display: grid;
-               grid-template-columns: repeat(2,1fr);
-               li{
-                    display: flex;
-                    gap: 10px;
-                    h4{
-                         color:#05092B;
-                         font-family: "Space Grotesk";
-                         font-size: 18px;
-                         font-style: normal;
-                         font-weight: 700;
-                         line-height: 30px; /* 166.667% */
-                    }
-               }
-          }
-          .text-f{
-               display: flex;
-               align-items: center;
-               gap: 82px;
-               margin-top: 104px;
-               .contact{
-                    display: inline-flex;
-                    padding: 20px 30px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 8px;
-                    background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
-                    color: #FFF;
-                     
-                    span{
-                         color:#FFF;
-                         text-align: center;
-                         font-family: "Space Grotesk";
-                         font-size: 18px;
-                         font-style: normal;
-                         font-weight: 700;
-                         line-height: 30px; /* 166.667% */
-                    };
-                     
-                     
-                    .flow{
-                         color:#737373;
-                         text-align: center;          
-                         font-family: "Space Grotesk";
-                         font-size: 18px;
-                         font-style: normal;
-                         font-weight: 400;
-                         line-height: 28px; /* 155.556% */
-                         letter-spacing: -0.36px;
-                          padding-left: 82px;
-                           
-                    }
-               }
-                
-          }
-      }
-      
-}
-.cards{
-     margin-top: 60px;
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
-     grid-gap: 30px;
-     .box{
-          width: 410px;
-          img{
-               width: 410px;
-               height: 415px;
-               border-radius: 5px;
-          }
-          .box-t{
-               h2{
-                   @include h2;
-               }
-               .text2{
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    .d{
-                         @include d;
-                    }
-                    p{
-                         @include p;
-                         height: 28px;
-                    }
-               }
-              
-          }
-     }
- }
- .hr{
-     width: 1290px;
-     height: 1px;
-     background: #CCC;
-     margin-top: 70px;
-     margin-bottom: 60px;
- }
- .pagination{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-bottom: 32px;
-     .pagi{
-           display: flex;
-           align-items: center;
-           gap: 20px;
-           i{
-               
                font-size: 16px;
                font-style: normal;
-               font-weight: 900;
-               line-height: normal;
-               background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
-               background-clip: text;
-               -webkit-background-clip: text;
-               -webkit-text-fill-color: transparent;
-           }
-           span{
-               @include h3;
-
-           }
+               font-weight: 700;
+               line-height: 30px; /* 187.5% */
+               letter-spacing: 2.56px;
+               text-transform: uppercase; 
+          }
+          .he2{
+               width: 715px;
+               color: #05092B;
+               font-family: "Space Grotesk";
+               font-size: 60px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 68px; /* 113.333% */
+               letter-spacing: -1.48px;
+               margin-top: 10px
+          }
+          .pera{
+               @include his-p;
+               width: 740px;
+               margin-top: 20px;
+          }
      }
- }
+     .cal-div{
+          width: 410px;
+          height: 346px;
+          border-radius: 5px;
+          border: 1px solid   #CCC;
+          h2{
+               width: 410px;
+               height: 50px;
+               border-radius: 5px;
+               background:   linear-gradient(91deg, #351EE0 0%, #3F74EF 100%); 
+               text-align: center;
+                span{
+                    color:  #FFF;
+                    font-family: "Space Grotesk";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px; /* 166.667% */
+                }
+          }
+        .history{
+          margin-left: 30px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+         h4{
+          @include history-h4;
+         }
+         .value{
+          @include history-span;
+         }
+        }  
+        .history:first-child{
+          margin-top: 20px;
+        }
+        .history:last-child{
+          margin-bottom: 30px;
+        }
+     }
+}
+// place
+.place{
+     margin-top: 120px;
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     .left-box{
+           
+          width: 630px;
+          height: 459px;
+          background:    lightgray ;
+     }
+     .right-box{
+          h1{
+               @include year;
+               margin-bottom: 20px;
+          }
+          p{
+               @include his-p;
+          }
+     }
+}
+ 
+  
+  
  .conected{
      max-width: 1290px;
      margin: 10px auto;
