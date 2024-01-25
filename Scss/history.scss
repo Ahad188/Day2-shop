@@ -8,7 +8,6 @@
      background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
 }
 @mixin p{
-     
           font-family: "Space Grotesk";
           font-size: 18px;
           font-style: normal;
@@ -19,7 +18,6 @@
           background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-     
 }
 @mixin h2{
      color:  #05092B;
@@ -91,7 +89,6 @@ header{
           display: flex;
           justify-content: space-between;
           align-items: center;
-         
            ul{
                display: flex;
                align-items: center;
@@ -249,7 +246,7 @@ nav{
       gap: 165px;
      .details-text{
           .he{
-               color:   #05092B;
+               color:#05092B;
                font-family: "Space Grotesk";
                font-size: 16px;
                font-style: normal;
@@ -322,7 +319,6 @@ nav{
      align-items: center;
      gap: 30px;
      .left-box{
-           
           width: 630px;
           height: 459px;
           background:    lightgray ;
@@ -341,28 +337,46 @@ nav{
   
   
  .conected{
-     max-width: 1290px;
-     margin: 10px auto;
      margin-top: 206px;
      display: flex;
      justify-content: space-between;
      align-items: center;
      gap: 30px;
+     margin-bottom: -50px;
+     overflow: hidden;
+     position: relative;
+     z-index: 1;
+    &::before{
+     content: '';
+     position: absolute;
      background: #fff;
+     width: 100%;
+     z-index: -1;
+     height: calc(100% - 87px);
+     bottom: 0;
+     left:0;
      box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
-    
-    
+    }
      .left{
-          background: #351EE0;
-          border-radius: 0% 100% 24% 76% / 100% 100% 0% 0% ;
-          
-           
+          position: relative;
+          z-index: 1;
          img{
               bottom: 50%;
-              width: 540px;
-             
+               width: 100%;
+         }
+         &::before{
+          position: absolute;
+          content: '';
+          bottom: -130px;
+          left: -50px;
+          width: 500px;
+          height: 500px;
+          background: #351EE0;
+          border-radius:  300px;
+          z-index: -1;
          }
      }
+      
      .text {
          h2{
               color:   #05092B;
@@ -424,7 +438,6 @@ footer{
      
      .foot{
           margin-top: 400px;
-          
           width: 1290px;
           margin: 0 auto;
           display: grid;
@@ -504,7 +517,6 @@ footer{
                     line-height: 36px; /* 163.636% */
                }
                ul{
-                   
                     li{
                          .fa-solid {
                               font-size: 16px;
@@ -524,15 +536,12 @@ footer{
                               font-weight: 400;
                               line-height: 28px; /* 155.556% */
                               letter-spacing: -0.36px;
-
                          }
-                          
                     }
                }
           }
           .third{
                margin-top: 191px;
-              
                h3{
                     color:   #FFF;
                     font-family: "Space Grotesk";
@@ -605,42 +614,41 @@ footer{
             
             
      }
-     .bor{
-          margin: 0 auto;
-          width: 1290px;
-          height: 1px;
-          background: #fff;
-          opacity: 0.2;
+.bor{
+     margin: 0 auto;
+     width: 1290px;
+     height: 1px;
+     background: #fff;
+     opacity: 0.2;
+}
+.copy-right{
+     // margin: 30px;
+     width: 1290px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+p{
+     color:   #FFF;
+     font-family: "Space Grotesk";
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 26px; /* 144.444% */
+     opacity: 0.7;
+     padding-top: 30px ;
+}
+.ri{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     li{
+          color: #FFF;
+          font-family: "Space Grotesk";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px; /* 144.444% */
+       }
      }
-     .copy-right{
-          // margin: 30px;
-          width: 1290px;
-          margin: 0 auto;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          p{
-               color:   #FFF;
-               font-family: "Space Grotesk";
-               font-size: 18px;
-               font-weight: 400;
-               line-height: 26px; /* 144.444% */
-               opacity: 0.7;
-               padding-top: 30px ;
-          }
-          .ri{
-               display: flex;
-               align-items: center;
-               gap: 20px;
-               li{
-                    color: #FFF;
-                    font-family: "Space Grotesk";
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 26px; /* 144.444% */
-               }
-          }
-     }
-      
+  }  
 }
