@@ -264,16 +264,22 @@ h4{
      gap: 82px;
      margin-top: 104px;
  
-span{
-     color:#FFF;
-     text-align: center;
-     font-family: "Space Grotesk";
-     font-size: 18px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 30px; /* 166.667% */
-      
+.contact{
+     background:  linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+     width: 300px;
+     padding: 30px 20px;
+     a{
+          color:#FFF;
+          text-align: center;
+          font-family: "Space Grotesk";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          text-decoration: none;
+          line-height: 30px; /* 166.667% */
+                
      };
+}
 .flow{
      color:#737373;
      text-align: center;          
